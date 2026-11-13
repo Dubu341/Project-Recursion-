@@ -24,10 +24,4 @@ function merge(left, right) {
   }
   return result.concat(left.slice(leftIndex)).concat(right.slice(rightIndex));
 }
-const empty = [];
-const nums1 = [1, 3, 2, 4, 5];
-const nums2 = [73];
-const nums3 = [1, 2, 3, 4, 5];
-const nums4 = [3, 2, 1, 13, 8, 5, 0, 1];
-const nums5 = [105, 79, 100, 110];
 module.exports = mergeSort;
